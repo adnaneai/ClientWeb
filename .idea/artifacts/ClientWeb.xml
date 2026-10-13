@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ClientWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientWeb</output-path>
+    <root id="archive" name="ClientWeb.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ClientWeb" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ClientWeb/web/Web" />
+    </root>
+  </artifact>
+</component>
